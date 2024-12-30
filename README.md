@@ -23,27 +23,29 @@ To run this project, follow the instructions below:
    git clone https://github.com/yourusername/Continuous_Learning_Project.git
 2. Navigate to the project directory:
   ```bash
-cd Continuous_Learning_Project
+   cd Continuous_Learning_Project
+  ```
 
-3. Set up a virtual environment (optional but recommended):
+Set up a virtual environment (optional but recommended):
 For Windows:
 ```bash
 python -m venv venv
 .\venv\Scripts\activate
+```
 For Mac/Linux:
 ```bash
 python3 -m venv venv
 source venv/bin/activate
+```
 4. Install the dependencies:
 ```bash
-Copier le code
 pip install -r requirements.txt
-
+```
 ## Code Structure
 The project contains three main Jupyter Notebooks:
 
 1_Preprocessing_and_Initial_Model.ipynb: This notebook handles data preprocessing and the setup of the initial neural network model.
-2_Training_and_Learning.ipynb: This notebook trains the neural network model and applies continuous learning techniques to adapt to new tasks.
+2_Training_and_Learning.ipynb: This notebook trains the neural network model and applies continuous learning techniques to adapt to new tasks.   
 3_Evaluation_and_Results.ipynb: This notebook evaluates the performance of the model, compares it with baseline models, and visualizes the results.
 
 ## Usage
@@ -51,6 +53,7 @@ To execute the notebooks, open them in Jupyter Notebook or JupyterLab:
 
 ```bash
 jupyter notebook
+```
 Then, navigate to the notebook directory and run each notebook sequentially to see the results of preprocessing, model training, and evaluation.
 
 ## Dependencies
@@ -66,9 +69,9 @@ You can install these dependencies using the following command:
 
 ```bash
 pip install -r requirements.txt
-
+```
 ## Results
-The evaluation section of the third notebook shows how the model performs when learning continuously. We compare the performance of the model with techniques like EWC and Progressive Neural Networks.
+The evaluation section of the third notebook shows how the model performs when learning continuously. We compare the performance of the model with techniques of Neural Networks.
 
 ## Acknowledgments
 TensorFlow for the deep learning framework.
@@ -80,9 +83,9 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 vbnet
 
-### **Fichier `requirements.txt` :**
+### ** `requirements.txt` File :**
 
-Dans ce fichier, vous devrez lister toutes les dépendances nécessaires à l'exécution de votre projet. Voici un exemple :
+In this file, you should list all the dependencies required to run your project. Here is an example:
 
 ```text
 numpy
@@ -91,11 +94,5 @@ tensorflow
 matplotlib
 scikit-learn
 jupyter
-
-Finalisation :
-Après avoir créé ou mis à jour le fichier README.md, vous devez l'ajouter et le pousser sur GitHub :
-```bash
-git add README.md
-git commit -m "Added detailed README"
-git push origin main
+```
 
