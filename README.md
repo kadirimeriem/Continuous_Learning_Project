@@ -24,6 +24,7 @@ To run this project, follow the instructions below:
 2. Navigate to the project directory:
   ```bash
 cd Continuous_Learning_Project
+
 3. Set up a virtual environment (optional but recommended):
 For Windows:
 ```bash
