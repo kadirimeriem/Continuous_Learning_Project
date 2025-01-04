@@ -83,7 +83,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 vbnet
 
-### ** `requirements.txt` File :**
+###  `requirements.txt` File :
 
 In this file, you should list all the dependencies required to run your project. Here is an example:
 
